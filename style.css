@@ -1060,7 +1060,7 @@ input::placeholder{
     position: fixed;
     right: 20px;
     bottom: 20px;
-    
+    z-index: 70;
 }
 
 .scroll a svg{
@@ -1268,6 +1268,11 @@ input::placeholder{
         margin-bottom: 1rem;
     }
 
+    .clock{
+        /* left: 20px; */
+        right: -20px;
+    }
+
 
     .partner-con{
         width: 100vw;
@@ -1322,7 +1327,7 @@ input::placeholder{
 
 
     .approach-section{
-        width: 100vw;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -1371,7 +1376,7 @@ input::placeholder{
 
 
     .blog-section{
-        width: 100%;
+        width: 100vw;
         padding: 1rem;
     }
 
@@ -1385,6 +1390,7 @@ input::placeholder{
 
     .blog{
         width: 90vw;
+        /* margin: 0; */
         /* margin: 0 auto; */
     }
 
