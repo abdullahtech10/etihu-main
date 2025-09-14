@@ -85,8 +85,8 @@ sections.forEach(section => {
     gsap.timeline({
         scrollTrigger: {
             trigger: section,
-            start: "top 70%",
-            end: "bottom top",
+            start: "top 60%",
+            end: "bottom 20%",
             toggleActions: "play reverse play reverse",
             // markers: true
 
