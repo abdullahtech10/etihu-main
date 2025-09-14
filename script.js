@@ -88,7 +88,7 @@ sections.forEach(section => {
             start: "top 70%",
             end: "bottom top",
             toggleActions: "play reverse play reverse",
-            markers: true
+            // markers: true
 
         }
     })
