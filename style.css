@@ -184,6 +184,7 @@ button {
     position: absolute;
     opacity: 0;
     flex-wrap: wrap;
+    margin-bottom: 12rem;
 }
 
 .hero-section.active {
@@ -1070,8 +1071,10 @@ input::placeholder{
 @media (max-width:765px) {
 
     section{
-        width: 100vw;
+        width: 100%;
     }
+
+    
 
     .nav-con{
         /* padding: 1rem; */
@@ -1079,7 +1082,7 @@ input::placeholder{
     }
 
     nav section{
-        width: 100vw;
+        width: 100%;
     }
 
     .service-drop{
@@ -1175,17 +1178,17 @@ input::placeholder{
 
     .hero-section{
         flex-direction: column;
-        width: 100vw;
+        width: 100%
      
     }
 
     .left{
-        width: 90vw;
+        width: 90%;
         margin-bottom: 3rem;
     }
 
     .right{
-        width: 90vw;
+        width: 90%;
     }
 
     .right .image{
@@ -1218,7 +1221,7 @@ input::placeholder{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 0.5rem;
-        width: 100vw;
+        width: 100%;
     }
 
     .project{
@@ -1232,7 +1235,7 @@ input::placeholder{
 
     .expert-section{
         padding: 1rem;
-        width: 100vw;
+        width: 100%;
     }
 
     .expert-con{
@@ -1240,7 +1243,7 @@ input::placeholder{
     }
 
     .expert-content{
-        width: 100vw;
+        width: 100%;
     }
 
     .expert-image{
@@ -1275,7 +1278,7 @@ input::placeholder{
 
 
     .partner-con{
-        width: 100vw;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -1293,26 +1296,33 @@ input::placeholder{
 
 
     .service-section{
-        width: 100vw;
+        width: 100%;
+        padding: 1rem;
     }
 
-    .service-section section{
-        width: 100vw;
+    .service-section .sec{
+        width: 100%;
+        /* margin: 0 auto; */
     }
 
     .service-section h2{
         text-align: center;
-        width: 100vw;
+        width: 100%;
         font-size: 1.5rem;
     }
 
     .service-container{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .ser{
+        width: 100%;
     }
 
     
     .contact-section{
-        width: 100vw;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -1340,7 +1350,7 @@ input::placeholder{
     }
 
     .aproach-content{
-        width: 100vw;
+        width: 100%;
     }
 
     .aproach-content h2{
@@ -1356,7 +1366,7 @@ input::placeholder{
     }
 
     .feedback-section{
-        width: 100vw;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -1376,12 +1386,12 @@ input::placeholder{
 
 
     .blog-section{
-        width: 100vw;
+        width: 100%;
         padding: 1rem;
     }
 
     .blog-section section{
-        width: 100vw;
+        width: 100%;
     }
 
     .blog-con{
@@ -1389,7 +1399,7 @@ input::placeholder{
     }
 
     .blog{
-        width: 90vw;
+        width: 100%;
         /* margin: 0; */
         /* margin: 0 auto; */
     }
@@ -1427,7 +1437,7 @@ input::placeholder{
     }
 
     .footer section{
-        width: 100vw;
+        width: 100%;
     }
 
     .footer-con{
@@ -1440,7 +1450,7 @@ input::placeholder{
 
 
     .connect-con{
-        width: 100vw;
+        width: 100%;
     }
     
     input{
