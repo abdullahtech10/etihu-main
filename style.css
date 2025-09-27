@@ -1247,7 +1247,8 @@ input::placeholder{
     }
 
     .expert-image{
-        width: 358px;
+        /* width: 300px; */
+        width: 100%;
         height: 320px;
 
     }
@@ -1273,7 +1274,7 @@ input::placeholder{
 
     .clock{
         /* left: 20px; */
-        right: -20px;
+        right: 0px;
     }
 
 
